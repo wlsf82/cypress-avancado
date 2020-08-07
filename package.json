@@ -1,0 +1,33 @@
+{
+  "name": "cypress-avancado",
+  "version": "1.0.0",
+  "description": "Projeto demonstrativo de funcionalidades avançadas do Cypress",
+  "scripts": {
+    "lint": "npx standard",
+    "lint:fix": "npx standard --fix",
+    "test": "cypress run --reporter nyan",
+    "cy:open": "cypress open"
+  },
+  "standard": {
+    "globals": [
+      "beforeEach",
+      "context",
+      "cy",
+      "Cypress",
+      "describe",
+      "it"
+    ]
+  },
+  "keywords": [
+    "cypress",
+    "testing"
+  ],
+  "author": "Walmyr Filho <wlsf82@gmail.com> (https://walmyr.dev)",
+  "license": "MIT",
+  "devDependencies": {
+    "cypress": "^6.5.0",
+    "cypress-localstorage-commands": "^1.4.1",
+    "faker": "^5.4.0",
+    "standardjs": "^1.0.0-alpha"
+  }
+}
